@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(182, 201, 221);
+  color: #000000;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* header */
+.nav-header h1 {
+  font-family: "Fuggles", cursive;
+  position: sticky;
+  top: 0;
+  padding-top: 60px;
+  background-color: rgb(168, 195, 223);
+  color: #fff;
+  padding: 1rem;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.nav-link {
+  background-color:rgb(147, 183, 222);
+  padding: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.nav-link ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-link ul li a {
+  text-decoration: none;
+  color: #ebe8e4;
+  margin-left: 12px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+/* content */
+.main-content-text p {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.main-content-text p span {
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.main-content-text p span a {
+  font-weight: bold;
+  color: rgb(88, 205, 226);
+  text-decoration: none;
+}
+
+.main-content-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* coffees */
+
+.pc-content-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 5rem;
+  margin-bottom: 20px;
+}
+
+.pc-content-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 16px;
+}
+
+.pc-content-box h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.pc-content-box p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.8rem;
+}
+
+/* footer */
+.footer {
+  font-family: "Fuggles", cursive;
+  background-color:rgb(147, 183, 222);
+  color: #fff;
+  padding: 2.5rem;
+  font-size: 2rem;
+  text-align: start;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.footer p {
+  margin-left: 20px;
+}
+
+.footer img {
+  width: 1.725rem;
+  margin-left: 8px;
+}
+
+#about-footer {
+  background-color:rgb(147, 183, 222);
+  color: #fff;
+  padding: 10rem;
+  font-size: 2rem;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
