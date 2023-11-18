@@ -1,0 +1,48 @@
+.searchtable{
+    background-color: #EEEEEE;
+    column-span: 3px;
+}
+
+.table1{
+    width: 90%;
+    border: 0;
+}
+
+.table2{
+    width: 35%;
+    height: 80px;
+    background-color: #7ee5da;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.table3{
+    width:20%;
+    height: 80px;
+    background-color: #70ccc2;
+    float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+td{
+   display: block;
+   
+}
+
+.table4{
+    width: 44%;
+    float: left;
+    height: 80px;
+    margin-top: 3px;
+}
+
+center{
+    display: block;
+}
+
+tr{
+    display: inline;
+    
+}
