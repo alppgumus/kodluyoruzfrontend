@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 14px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #5f6368;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu img:hover {
+    opacity: 0.8;
+}
+
+#menu .profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#content {
+    margin-top: 195px;
+}
+
+#logo {
+    text-align: center;
+}
+
+.searcharea {
+    width: 580px;
+    margin: 0 auto; 
+    position: relative;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.search {
+    display: block;
+    border: 1px solid #ddd;
+    color: black;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+
+.search:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.searchlogo {
+    width: 20px;
+    opacity: 0.4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+
+.voicesearch {
+    width: 18px;
+    position: absolute;
+    top: 13px;
+    right: -35px;
+}
+
+.voicesearch:hover {
+    opacity: 0.8;
+}
+
+.button {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: black;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 1px solid #aaa;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0; 
+}
+
+footer h4 {
+    color: black;
+    font-size: 15px;
+    line-height: 45px;
+    font-weight: 200;
+    border: 1px solid #eee;
+    margin: 0;
+    padding-left: 29px;
+}
+
+footer a {
+    color: black;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .altbilgi {
+    border-top: 1px solid #ddd;
+    display: flex;
+    padding-top: 5px;
+}
+
+footer .altbilgi .altbilgi1 {
+    padding-left: 18px;
+    flex: 1;
+}
+
+footer .altbilgi .altbilgi2 {
+    padding-right: 18px;
+}
